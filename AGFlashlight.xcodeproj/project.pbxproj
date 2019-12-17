@@ -12,6 +12,7 @@
 		2A2F063123A8410F00E1DB4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F062F23A8410F00E1DB4C /* Main.storyboard */; };
 		2A2F063323A8410F00E1DB4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F063223A8410F00E1DB4C /* Assets.xcassets */; };
 		2A2F063623A8410F00E1DB4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2F063423A8410F00E1DB4C /* LaunchScreen.storyboard */; };
+		2A2F064223A8420D00E1DB4C /* FlashlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2F064123A8420D00E1DB4C /* FlashlightViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2A2F063223A8410F00E1DB4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2F063523A8410F00E1DB4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2F063723A8410F00E1DB4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2F064123A8420D00E1DB4C /* FlashlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashlightViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		2A2F062823A8410F00E1DB4C /* AGFlashlight */ = {
 			isa = PBXGroup;
 			children = (
+				2A2F063F23A841F400E1DB4C /* Controllers */,
 				2A2F063E23A8416000E1DB4C /* Views */,
 				2A2F063D23A8415500E1DB4C /* Resources */,
 			);
@@ -78,6 +81,22 @@
 				2A2F062F23A8410F00E1DB4C /* Main.storyboard */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2A2F063F23A841F400E1DB4C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A2F064023A841FB00E1DB4C /* ViewControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2A2F064023A841FB00E1DB4C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A2F064123A8420D00E1DB4C /* FlashlightViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +172,7 @@
 			files = (
 				2A2F062A23A8410F00E1DB4C /* AppDelegate.swift in Sources */,
 				2A2F062C23A8410F00E1DB4C /* SceneDelegate.swift in Sources */,
+				2A2F064223A8420D00E1DB4C /* FlashlightViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
